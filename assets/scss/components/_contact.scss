@@ -26,19 +26,14 @@
     }
   }
 }
+
 .contact-form {
   padding: 50px 0 100px 0;
+  display: flex;
+  justify-content: center;
   &-input {
     .form-group {
       margin-bottom: 30px;
-    }
-  }
-  #map {
-    border-radius: 30px;
-    height: 100%;
-    @include desktop {
-      height: 400px;
-      margin-top: 60px;
     }
   }
   &-generator {
